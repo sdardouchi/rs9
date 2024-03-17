@@ -1,5 +1,5 @@
 use poise::serenity_prelude as serenity;
-use serenity::{CreateAttachment, CreateEmbed, EventHandler};
+use serenity::{CreateAttachment, CreateEmbed};
 use poise::reply::CreateReply;
 
 use super::helpers;
