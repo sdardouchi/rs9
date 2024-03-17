@@ -1,4 +1,8 @@
-# RS9
+
+<p align="center">
+  <img src="assets/logo.png">
+</p>
+
 RS9 is a Discord (and maybe Telegram who knows) bot that grabs TikToks.
 
 ## Installation

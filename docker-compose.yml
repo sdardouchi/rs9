@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  rs9:
+    build: .
+    environment:
+      - DISCORD_BOT_TOKEN=<your_token>
+
