@@ -23,6 +23,7 @@ async fn create_reply(user_id: String, url: String) -> Result<CreateReply, Strin
 
 			embeds.push(embed)
 		}
+		embeds.truncate(10);
 
 		let mut reply = CreateReply::default();
 		reply.embeds = embeds;
